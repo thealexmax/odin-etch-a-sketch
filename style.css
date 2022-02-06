@@ -1,0 +1,16 @@
+.row {
+    display: flex;
+}
+
+#element {
+    flex-shrink: 0;
+    border-style: solid;
+    border-color: #eaeaea;
+    box-sizing: border-box;
+}
+
+#element:hover {
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+}
